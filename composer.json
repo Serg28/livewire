@@ -47,6 +47,9 @@
       ],
       "aliases": {
         "Livewire": "Livewire\\Livewire"
+      },
+      "replace": {
+        "livewire/livewire": "^3.0"
       }
     }
   },
