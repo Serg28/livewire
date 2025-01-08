@@ -73,7 +73,7 @@ class HandleRequests
 
     function handleUpdate()
     {
-        $components = request('components');
+        $components = request('components', []);
 
         $responses = [];
 
